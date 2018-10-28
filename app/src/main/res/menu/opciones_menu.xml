@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/reiniciarPartida"
+        android:icon="@android:drawable/ic_menu_rotate"
+        app:showAsAction="ifRoom"
+        app:iconTint="@color/colorPrimaryDark"
+        android:orderInCategory="100"
+        android:title="@string/reiniciar" />
+    <item
+        android:id="@+id/guardarPartida"
+        android:icon="@android:drawable/ic_menu_save"
+        app:iconTint="@color/colorPrimaryDark"
+        app:showAsAction="ifRoom"
+        android:orderInCategory="200"
+        android:title="@string/save"/>
+    <item
+        android:id="@+id/recuperarPartida"
+        android:icon="@android:drawable/ic_menu_recent_history"
+        app:iconTint="@color/colorPrimaryDark"
+        app:showAsAction="ifRoom"
+        android:orderInCategory="300"
+        android:title="@string/restore"
+        />
+    <item
+        android:id="@+id/launchLeaderboard"
+        android:orderInCategory="400"
+        android:title="@string/leaderboardTitle" />
+    <item
+        android:id="@+id/preferences"
+        android:icon="@android:drawable/ic_menu_preferences"
+        android:orderInCategory="500"
+        android:title="@string/preferencesText"/>
+    <item
+        android:id="@+id/menuAbout"
+        android:icon="@android:drawable/ic_menu_info_details"
+        android:orderInCategory="600"
+        android:title="@string/aboutText"/>
+
+</menu>
